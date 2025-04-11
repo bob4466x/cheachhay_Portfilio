@@ -1,0 +1,53 @@
+.row {
+  width: 100%;
+}
+.col-4 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.col-4 > img {
+  height: 100%;
+  position: absolute;
+  top: 40px;
+  left: -60px;
+  width: 100%;
+  object-fit: cover;
+}
+.col-8 {
+  padding: 100px 300px;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+.skills {
+  margin: 130px 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.skills > .progress {
+  margin: 10px;
+  height: 30px;
+}
+.skills > .progress > h5 {
+  margin: 3px 20px;
+}
+.other-skill {
+  margin: 130px 50px;
+}
+.other-skill > p > span {
+  font-weight: bold;
+  margin-top: 40px;
+}
+.col-4 {
+  padding: 10px;
+}
+.footer-icon > img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+@media screen and(max-width:1024px) {
+}
